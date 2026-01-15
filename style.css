@@ -96,8 +96,18 @@ section {
   color: white;
   padding: 8px 12px;
   font-weight: bold;
-  border-radius: 4px;
-  border: 1px none;
+  border-radius: 5px;
+  border: none;
+}
+
+#Project-Link{
+  background: black;
+  color: #f4f4f4;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
 }
 
 
