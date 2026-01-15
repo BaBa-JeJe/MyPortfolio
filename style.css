@@ -27,7 +27,7 @@ table {
 }
 
 th,
-td {
+td { 
   border: 1px solid #333;
   padding: 10px;
   text-align: left;
@@ -164,3 +164,39 @@ input, textarea{
     height: auto;
   }
 }
+
+@media (max-width: 600px){
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr{
+    display: block;
+  }
+  thead{
+    display: none;
+  }
+tr{
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0.5rem;
+}
+td{
+  border: none;
+  padding: 0.4rem 0;
+}
+td::before{
+  content: attr(data-label);
+  font-weight: bold;
+  display: block;
+}
+
+caption{
+  display: inline;
+  margin-left: 20%;
+  font-weight: bold;
+}
+}
+
