@@ -198,5 +198,9 @@ caption{
   margin-left: 20%;
   font-weight: bold;
 }
+
+table{
+  border: none;
+}
 }
 
