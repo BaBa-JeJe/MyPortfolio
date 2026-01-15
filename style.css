@@ -199,7 +199,8 @@ caption{
   font-weight: bold;
 }
 
-table{
+table,
+tr th{
   border: none;
 }
 }
